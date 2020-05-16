@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="jumbotron">
+<h2>Welcome to</h2>
+<h1>YouTube Breaktime!</h1>
+    <h3>Take a smart break on YouTube!</h3>
+</div>
+<div class="form">
+    <form action="{{ url_for('handle_data') }}" method="post">
+        <p>What topic do you want to search?</p>
+    <input type="text" name="topic"><br />
+        <p>How long is your break? (minutes)</p>
+    <input type="text" name="maxmins"><br/><br/>
+    <input type="submit">
+</div>
+{% endblock %}

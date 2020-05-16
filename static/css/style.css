@@ -1,0 +1,48 @@
+body {
+    background-color: #f5aeae;
+}
+
+.jumbotron {
+    text-align:center;
+}
+
+h1 {
+    color:black;
+    font-family: 'Pangolin', cursive;
+    font-size: 50pt;
+    line-height: 30px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form {
+    text-align:center;
+    background-color: #f03c3c;
+    color: white;
+    padding: 50px;
+    width: 200px;
+    border: solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.results {
+    text-align:center;
+    background-color: #f03c3c;
+    color: white;
+    padding: 50px;
+    width: 700px;
+    border: solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}

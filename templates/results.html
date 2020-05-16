@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block body %}
+<h1>Results!</h1>
+<div class="results">
+{% for n in videos %}
+<p>{{ n.title }}</p>
+<p>{{ n.duration }}</p>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/{{ n.videoid }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endfor %}
+</div>
+<br />
+<a href="{{ url_for('index') }}">Make Another Query</a>
+{% endblock %}
